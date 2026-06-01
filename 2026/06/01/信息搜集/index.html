@@ -3,7 +3,7 @@
 <html lang="chinese">
 <head>
     <meta charset="utf-8" />
-    <title>宝库 | 风华一指流</title>
+    <title>AI Agent知识库 | 风华一指流</title>
     <meta name="author" content="风华一指流" />
     <meta name="description" content="感谢你的访问" />
     <meta name="keywords" content="" />
@@ -37,6 +37,10 @@
 
 
 <script src="/js/lib/preview.js"></script>
+
+
+
+
 
 
 
@@ -150,12 +154,42 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            <div id="archives">
-    
-    <div class="categories-tags">
+            <div class="article">
+    <div>
+        <h1>AI Agent知识库</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2026/6/1
+        </span>
         
         
     </div>
+    
+    <div class="content" v-pre>
+        <h2 id="Agent简介"><a href="#Agent简介" class="headerlink" title="Agent简介"></a>Agent简介</h2><blockquote>
+<p>Agent &#x3D; LLM (大脑) + Planning (规划) + Tool use (执行) + Memory (记忆)。</p>
+<ul>
+<li>LLM: 大脑，作为核心推理机，负责理解意图、生成文本和进行逻辑判断。</li>
+<li>Planning: 规划， 能够将复杂的目标（如”帮我策划一场技术沙龙”）拆解成可执行的步骤。</li>
+<li>Tool use: 执行，记录对话历史（短期）和存储专业知识库（长期）。</li>
+<li>Memory: 能够根据需求去查谷歌搜索、读数据库、甚至跑 Python 代码。</li>
+</ul>
+</blockquote>
+<h2 id="整体架构"><a href="#整体架构" class="headerlink" title="整体架构"></a>整体架构</h2><blockquote>
+<p><img src="/./images/Ai%E7%9F%A5%E8%AF%86%E5%BA%931.png" alt="图片" title="整体架构"><br>1.感知层：</p>
+</blockquote>
+
+    </div>
+    
+    
+    
+    
+    
+    
     
 </div>
 
@@ -187,6 +221,12 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+
+
+
+
     
 </body>
 </html>
